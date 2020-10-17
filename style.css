@@ -1,0 +1,127 @@
+:root {
+    --bgcolor: #e730ff;
+    --linkcolor: #e8e8e8;
+    
+}
+
+/*-----------------------------------------------------------*/
+
+input {
+    height: inherit;
+    width: 680px;
+    background: #9030ff;
+    color: var(--linkcolor);
+    font: 15px "Share Tech Mono";
+    font-weight: bold;
+    line-height: 1.8em;
+    box-shadow: 1px 1px 3px #000000;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    padding: 7px 14px;
+    font-size: 18;
+    grid-column: 1 / -1;
+    ;
+}
+
+body {
+    background-image: url('./images/koi_pond.gifv');
+    background-color: #42c0de;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link {
+    display: inline-block;
+    margin: 1%;
+    height: 185px;
+    width: 140px;
+    text-align: left;
+    padding-left: 3%;
+    background-color: var(--bgcolor);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #000000;
+}
+
+.link1 {
+    display: inline-block;
+    margin: 1%;
+    height: 185px;
+    width: 140px;
+    text-align: left;
+    padding-left: 3%;
+    background-color: #18cf00;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #000000;
+}
+
+.box {
+    width: 750px;
+}
+
+@media only screen and (max-width: 785px) {
+    .box {
+        height: auto;
+    }
+
+    input {
+        width: 75%
+    }
+
+    .box {
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .box {
+        width: auto;
+        margin: 1em 0em;
+    }
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+a {
+    display: block;
+    line-height: 2.4em;
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--linkcolor);
+    font-size: 1rem;
+    text-decoration: none;
+    outline: none;
+    transition: .2s;
+}
+
+a:hover {
+    color: #2e26e6;
+}
+
+
+.img1 {
+    display: inline-block;
+    margin: 1%;
+    width: 42em;
+    text-align: left;
+    background-color: #18cf00;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #000000;
+}
+
+audio {
+    width: 39em;
+    margin-bottom: 8px;
+    background-color: #17aeff;
+    box-shadow: 2px 2px 8px #000000;
+}
